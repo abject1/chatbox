@@ -23,21 +23,66 @@
     margin: 0.4rem auto;
 }
 
-.window {
+#window {
     display: block;
     margin: auto;
     width: 40rem;
-    height: 80vh;
+    height: 75vh;
     background-color: aliceblue;
     color: blue;
+    padding: 0.8rem;
 }
 
 .sendMessage {
-    margin: 0.8rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
-    color: blueviolet;
-    font-size: 1.6rem;
+    color: orange;
+    font-size: 1.2rem;
     padding: 0.2rem;
+    margin: 0.6rem 0.8rem;
+}
+
+textarea {
+    margin: 0.6rem 0.8rem;
+    width: 30rem;
+}
+
+.message {
+    max-width: 20rem;
+    padding: 0.8rem;
+    display: flex;
+    border: 0.1rem solid rgb(214, 92, 214);
+}
+
+.message img {
+    width: 10%;
+    height: 50%;
+    margin: 0.6rem;
+}
+
+.message p {
+    color: white;
+}
+
+.messageBis {
+    max-width: 20rem;
+    padding: 0.8rem;
+    display: flex;
+    border: 0.1rem solid rgb(214, 92, 214);
+    margin-top: 0.6rem;
+    margin-left: 20rem;
+}
+
+.messageBis img {
+    width: 10%;
+    height: 50%;
+    margin: 0.6rem;
+}
+
+.messageBis p {
+    color: white;
 }
