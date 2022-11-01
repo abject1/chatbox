@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: white;
+}
+
+.chatbox {
+    display: block;
+    margin: 0.8rem auto 0 auto;
+    width: 50rem;
+    height: 95vh;
+    background-color: rgb(32, 32, 32);
+}
+
+.chatbox h1 {
+    color: red;
+    text-align: center;
+    margin: 0.4rem auto;
+}
+
+.window {
+    display: block;
+    margin: auto;
+    width: 40rem;
+    height: 80vh;
+    background-color: aliceblue;
+    color: blue;
+}
+
+.sendMessage {
+    margin: 0.8rem auto;
+}
+
+button {
+    color: blueviolet;
+    font-size: 1.6rem;
+    padding: 0.2rem;
+}
