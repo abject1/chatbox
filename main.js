@@ -5,7 +5,7 @@ let a;
 let b = 0;
 
 const message = [
-    "Très bien j'aurais bessoin de plus d'information dans ce cas.","Pour cette utilisation je vous conseil un I7-9700k ainsi que 16go de ram en 3000Mhz.","Aucun soucit je reste a votre disposition pour toute autres question, bonne journée à vous."
+    "Très bien j'aurai bessoin de plus d'informations dans ce cas.","Pour cette utilisation je vous conseil un I7-9700k ainsi que 16go de ram en 3000Mhz.","Aucun soucit je reste à votre disposition pour toute autres question, bonne journée à vous."
     
 ]
 
