@@ -4,7 +4,7 @@
 }
 
 .container {
-    max-width: 100vw;
+    max-width: 100vw !important;
     max-height: 100vh;
     background-color: white;
 }
@@ -94,4 +94,96 @@ textarea {
     overflow-y: scroll;
     scrollbar-color: rebeccapurple green;
     scrollbar-width: thin;
+}
+
+@media (max-width: 840px) {
+    .chatbox {
+        width: 40rem;
+    }
+
+    #window {
+        width: 30rem;
+    }
+
+    textarea {
+        width: 20rem;
+    }
+
+    .message {
+        width: 15rem;
+    }
+
+    .messageBis {
+        width: 15rem;
+        margin-left: 12rem;
+    }
+}
+
+@media (max-width: 660px) {
+    .chatbox {
+        width: 30rem;
+    }
+
+    #window {
+        width: 20rem;
+    }
+
+    textarea {
+        width: 15rem;
+    }
+
+    .message {
+        width: 10rem;
+    }
+
+    .messageBis {
+        width: 10rem;
+        margin-left: 7rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .chatbox {
+        width: 20rem;
+    }
+
+    #window {
+        width: 15rem;
+    }
+
+    textarea {
+        width: 8rem;
+    }
+
+    .message {
+        width: 8rem;
+    }
+
+    .messageBis {
+        width: 8rem;
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 340) {
+    .chatbox {
+        width: 10rem;
+    }
+
+    #window {
+        width: 8rem;
+    }
+
+    textarea {
+        width: 6rem;
+    }
+
+    .message {
+        width: 4rem;
+    }
+
+    .messageBis {
+        width: 4rem;
+        margin-left: 2rem;
+    }
 }
